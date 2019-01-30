@@ -1,0 +1,16 @@
+//fonts
+$baseFont: 'Raleway', sans-serif;
+$accentFont: 'Merriweather', serif;
+
+//color
+$primaryColor: #333333;
+$secondaryColor: #f3f3f3;
+$accentColor:#98FB98;
+
+//mixin
+@mixin baseFont($size) {
+    margin:0;
+    font-family:$baseFont;
+    color:$primaryColor;
+    
+}

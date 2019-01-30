@@ -1,0 +1,27 @@
+#displayShelters {
+    margin-top:50px;
+    // display:flex
+    // border:1px solid red;
+
+    .shelters {
+        // border:1px solid red;
+        display:flex;
+        flex-wrap: wrap;
+        justify-content: center;
+
+        .shelter {
+            width:calc(30% - 20px);
+            text-align:center;
+            border:1px solid $primaryColor;
+            margin:10px 10px 0 0 ;
+            padding:10px;
+            background: $secondaryColor;
+
+            button {
+                background:$secondaryColor;
+                border:1px solid $primaryColor;
+                padding:5px 10px;
+            }
+        }
+    }
+}

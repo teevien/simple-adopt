@@ -1,0 +1,15 @@
+html {
+    font-size: 62.5%;
+    
+    body {
+        font-size: 1.6rem;
+        @include baseFont(1.4rem);
+        background: $accentColor;
+    }
+
+    .wrapper {
+        margin:0 auto;
+        // max-width:1280px;
+        // width:90%;
+    }
+}
